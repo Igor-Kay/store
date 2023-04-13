@@ -14,7 +14,7 @@ body{
 }
 
 .wrapper {
-    width: 1280px;
+    width: 70%;
     margin: 50px auto;
 }
 
@@ -161,6 +161,26 @@ header .presentation::before{
 .categories div:hover {
     border-color: silver;
     transform: scale(1.1);
+}
+
+.full-item {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #3f3c3caf;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.full-item > div {
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 9px;
 }
 
 main{
